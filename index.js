@@ -27,3 +27,14 @@ function wrapAdjective(visualFlair='*'){
      return x / y;
    },
  };
+ function actionApplyer(number, array){
+     if (array.length === 0) {
+         return number;
+     } else {
+         let currentNumber = number;
+         for (let i = 0; i < array.length; i++){
+             currentNumber = array[i](currentNumber);
+         }
+         return currentNumber;
+     }
+ } 
