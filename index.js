@@ -37,4 +37,4 @@ function wrapAdjective(visualFlair='*'){
          }
          return currentNumber;
      }
- } 
+ }
