@@ -8,9 +8,9 @@ function saturdayFun(activity="roller-skate"){
 let mondayWork =function (activity="go to the office") {
     return `This Monday, I will ${acttivity}.`;
 }
-function wrapAdjective(symbol="*") {
-   return function(adj="special") {
-     return `You are ${symbol}${adj}${symbol}!`;
+function wrapAdjective(visualFlair='*'){
+    return function(param='special'){
+        return (`You are ${visualFlair}${param}${visualFlair}!`)
    }
  }
  let Calculator = {
