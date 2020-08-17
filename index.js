@@ -6,7 +6,7 @@ function saturdayFun(activity="roller-skate"){
 //   return `This Monday, I will ${activity}`;
 // }
 let mondayWork =function (activity="go to the office") {
-    return `This Monday, I will ${acttivity}.`;
+    return `This Monday, I will ${activity}.`;
 }
 function wrapAdjective(visualFlair='*'){
     return function(param='special'){
